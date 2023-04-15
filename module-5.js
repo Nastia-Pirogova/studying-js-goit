@@ -1812,38 +1812,55 @@ Example 3 - Калькулятор
 
 //! =======================================================================
 
-class Restangle {
-    constructor(a, b) {
-        this.name = "Restangle";
-        this.a = a;
-        this.b = b;
-    }
+// class Restangle {
+//     constructor(a, b) {
+//         this.name = "Restangle";
+//         this.a = a;
+//         this.b = b;
+//     }
+//
+//     greeting() {
+//         console.log(`Hello! i'm ${this.name}`)
+//     }
+//
+//     calculateArea() {
+//         return this.a * this.b
+//     }
+// }
+//
+// class Square extends Restangle {
+//     constructor(length) {
+//         super(length, length);
+//         this.name = "Square";
+//     }
+// }
+//
+// const rec = new Restangle(4, 3)
+// console.log(rec);
+//
+// rec.greeting()
+// console.log(rec.calculateArea())
+//
+//
+// const square = new Square(19);
+//
+// square.greeting()
+//
+// console.log(square.calculateArea())
 
-    greeting() {
-        console.log(`Hello! i'm ${this.name}`)
-    }
+// "use strict";
 
-    calculateArea() {
-        return this.a * this.b
-    }
-}
-
-class Square extends Restangle {
-    constructor(length) {
-        super(length, length);
-        this.name = "Square";
-    }
-}
-
-const rec = new Restangle(4, 3)
-console.log(rec);
-
-rec.greeting()
-console.log(rec.calculateArea())
+// function sum(numbers) {
+//
+//     let value = 0;
+//     numbers.forEach(el => {
+//         value += el
+//
+//     })
+//     return value
+// }
+//
+// console.log(sum([1, 5.2, 4, 0, -1]))
+// // console.log(sum)
 
 
-const square = new Square(19);
-
-square.greeting()
-
-console.log(square.calculateArea())
